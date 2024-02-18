@@ -1,32 +1,18 @@
 # U-Net-Segmentation-and-Lacunarity-for-Enhanced-Analysis-of-Hyperspectral-Imagery
 
-# Hyperspectral Image Segmentation and Lacunarity Analysis
-
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Abstract
 
 Hyperspectral imaging produces detailed spectral data, allowing precise object segmentation. This study utilizes a U-Net architecture for segmentation followed by lacunarity analysis of the Indian Pines dataset. The U-Net model, comprising encoder and decoder paths, performs semantic segmentation. Lacunarity, a measure of spatial heterogeneity, is computed using the variance method. Four regions of interest (ROIs) are studied using a gliding box technique. The results demonstrate that integrating segmentation and lacunarity analysis provides nuanced insights into spatial patterns, enhancing interpretation of terrain complexity.
 
-## Keywords
-
-Hyperspectral imaging, U-Net image segmentation, Lacunarity analysis.
-
 ## Introduction
 
 Recent advancements in sensor technologies have enabled hyperspectral satellite imaging (HSI) to capture extensive spectral information, revolutionizing various industries such as precision farming and surveillance. Deep learning techniques, including convolutional neural networks (CNNs), have played a significant role in hyperspectral image analysis. However, validating HSI segmentation algorithms remains challenging due to the lack of annotated ground-truth sets. The Indian Pines dataset is frequently used for testing segmentation techniques. This dataset, containing 145 spectral bands, covers a diverse range of land cover types, making it ideal for analysis.
 
-## Background Study
-
-Hyperspectral image segmentation is crucial for extracting meaningful information from complex data. Various methods, from spectral unmixing to machine learning algorithms, have been employed for this purpose. Lacunarity analysis complements segmentation by providing insights into spatial variability and texture. By integrating these techniques, researchers can improve classification accuracy and enhance environmental monitoring applications.
-
 ## Dataset
 
 The Indian Pines dataset comprises 16 land cover classes and 145 spectral bands, covering an area in Northwestern Indiana. This dataset includes farmland, natural land cover classes, and areas covered by various tree species, making it suitable for comprehensive analysis and classification of land cover patterns.
-
-## Network Structure
-
-The U-Net architecture, introduced by Ronneberger et al., is widely used for image segmentation tasks. It consists of encoder and decoder paths, enabling accurate localization and area delineation. The contracting path reduces image size, while the expansive path restores it to the original dimensions. Concatenation layers facilitate feature fusion, contributing to precise segmentation.
 
 ## Methodology
 
