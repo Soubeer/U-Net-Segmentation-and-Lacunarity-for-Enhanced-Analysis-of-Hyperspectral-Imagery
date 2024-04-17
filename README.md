@@ -2,6 +2,8 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
+THE FILES ARE UPLOADED IN ORDER OF EXECUTION...JUST FOR YOUR EASE OF MANEUVERABILITY
+
 ## Abstract
 
 Hyperspectral imaging produces detailed spectral data, allowing precise object segmentation. This study utilizes a U-Net architecture for segmentation followed by lacunarity analysis of the Indian Pines dataset. The U-Net model, comprising encoder and decoder paths, performs semantic segmentation. Lacunarity, a measure of spatial heterogeneity, is computed using the variance method. Four regions of interest (ROIs) are studied using a gliding box technique. The results demonstrate that integrating segmentation and lacunarity analysis provides nuanced insights into spatial patterns, enhancing interpretation of terrain complexity.
